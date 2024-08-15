@@ -61,9 +61,8 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
 
-    implementation('me.everything:overscroll-decor-android:1.0.1@aar') {
-        transitive true
-        exclude group: 'com.android.support', module: 'recyclerview-v7'
+    api ('io.github.everythingme:overscroll-decor-android:1.1.1'){
+        transitive = true
     }
 
     api ('com.alibaba.android:ultraviewpager:1.0.7.8@aar') {
