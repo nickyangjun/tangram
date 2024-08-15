@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tangram</string>
+    <string name="loading">Loading…</string>
+    <string name="no_more">All loaded</string>
+    <string name="unstable_network">Unstable Network, Please try again later</string>
+    <string name="no_data">No data</string>
+</resources>
